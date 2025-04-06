@@ -61,7 +61,7 @@
 
         stdenv.mkDerivation {
           pname = "apple-emoji-linux";
-          version = "17.4";
+          version = "18.4";
 
           src = ./.;
 
