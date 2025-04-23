@@ -30,4 +30,9 @@ jobs:
         with:
           name: apple-color-emoji-font
           path: AppleColorEmoji.ttf
+      - name: Archive build artifacts for Windows
+        uses: actions/upload-artifact@v4 # https://github.com/actions/upload-artifact
+        with:
+          name: AppleColorEmoji_WindowsCompatible
+          path: AppleColorEmoji_WindowsCompatible.ttf
 
